@@ -5,10 +5,7 @@
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -r git@github.com:julius0015/e-plantShopping-Mr-Robot.git",
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "deploy": "gh-pages -d dist -r git@github.com:julius0015/e-plantShopping-Mr-Robot.git --git ssh"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.3",
