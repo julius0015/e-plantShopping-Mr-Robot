@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://julius0015.github.io/e-plantShopping-Mr-Robot/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist -r git@github.com:julius0015/e-plantShopping-Mr-Robot.git",
